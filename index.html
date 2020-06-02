@@ -5,9 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>project0</title>
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
+
+  <div class="box">
+
+    <h1>Tic Tac Toe</h1>
+
+
+    <div class="Row1">
+      <button class="Col1" type="button"></button>
+      <button class="Col2" type="button"></button>
+      <button class="Col3" type="button"></button>
+    </div>
+
+    <div class="Row2">
+      <button class="Col1" type="button"></button>
+      <button class="Col2" type="button"></button>
+      <button class="Col3" type="button"></button>
+    </div>
+
+    <div class="Row3">
+      <button class="Col1" type="button"></button>
+      <button class="Col2" type="button"></button>
+      <button class="Col3" type="button"></button>
+    </div>
+
+    <button id="reset">Play again?</button>
+
+    <ul class="winOutput"></ul>
+
+    <div class="markerChangeX">
+      <p><span class='X'>Player One:</span> Choose your character.</p>
+      <button id="changeXOne">X</button>
+      <button id="changeXTwo">$</button>
+      <button id="changeXThree">V</button>
+      <button id="changeXFour">T</button>
+    </div>
+    <div class="markerChangeO">
+      <p><span class='O'>Player Two:</span> Choose your character.</p>
+      <button id="changeXFive">O</button>
+      <button id="changeXSix">S</button>
+      <button id="changeXSeven">&</button>
+      <button id="changeXEight">#</button>
+    </div>
+  </div>
+
   <script src="js/jquery.js" charset="utf-8"></script>
   <script src="js/project.js" charset="utf-8"></script>
+
+
 </body>
 </html>

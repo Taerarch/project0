@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+button {
+  margin-left: 2px;
+}
+
+.Col1, .Col2, .Col3{
+  width: 100px;
+  height: 100px;
+  font-size: 85px;
+  margin: 4px;
+  vertical-align: top;
+  border-radius: 5px;
+}
+.box div {
+  margin-left: 22%;
+  display: inline-block;
+  margin-right: 10%;
+}
+h1 {
+  font-family: 'Bangers';
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 0em;
+  line-height: 3em;
+}
+
+.X {
+  color: green;
+}
+.O {
+  color: red;
+}
+.win {
+  background-color: #ffff88;
+  transition: 1s;
+  border-width: medium
+}
+.box {
+  background-color: lightgray;
+  width: 600px;
+  align: center;
+  border-radius: 10px;
+  margin-left: 25%;
+  padding-bottom: 3em;
+}
+#reset {
+  margin-left: 42.6%;
+  margin-top: 5%;
+}
+
+.winOutput {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+li {
+  line-height: 2em;
+  font-family: 'Bangers';
+  font-size: 20px
+}
+
+.markerChangeO, .markerChangeX {
+  font-size: 20px;
+  font-family: 'Bangers';
+}
+
+.markerChangeX button{
+  margin-bottom: 2em;
+}
+
+.markerChangeX button, .markerChangeO button {
+  width: 3em;
+  height: 2em;
+  font-size: 1em;
+}
