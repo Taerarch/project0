@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
 // Confetti
 //
 
@@ -408,6 +408,6 @@ const bot = function() {
 
 
 
-
+});
 
 //
