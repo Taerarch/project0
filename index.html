@@ -10,10 +10,13 @@
 <body>
 
   <div class="box">
-
+  <header>
     <h1>Tic Tac Toe</h1>
-
-
+    <button class="reset"id="pvp">PVP</button>
+    <button class="reset"id="pve">PVE</button>
+    <h2 id="left">0</h2>
+    <h2 id="right">0</h2>
+  </header>
     <div class="Row1">
       <button class="Col1" type="button"></button>
       <button class="Col2" type="button"></button>
@@ -32,24 +35,25 @@
       <button class="Col3" type="button"></button>
     </div>
 
-    <button id="reset">Play again?</button>
+    <button class="reset">Play again?</button>
 
     <ul class="winOutput"></ul>
 
     <div class="markerChangeX">
-      <p><span class='X'>Player One:</span> Choose your character.</p>
+      <p><span class='X'>Player One:</span> Choose your character</p>
       <button id="changeXOne">X</button>
       <button id="changeXTwo">$</button>
       <button id="changeXThree">V</button>
       <button id="changeXFour">T</button>
     </div>
     <div class="markerChangeO">
-      <p><span class='O'>Player Two:</span> Choose your character.</p>
+      <p><span class='O'>Player Two:</span> Choose your character</p>
       <button id="changeXFive">O</button>
       <button id="changeXSix">S</button>
-      <button id="changeXSeven">&</button>
+      <button id="changeXSeven">G</button>
       <button id="changeXEight">#</button>
     </div>
+    <button class="reset" id="scores">Reset the scores</button>
   </div>
 
   <script src="js/jquery.js" charset="utf-8"></script>

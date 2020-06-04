@@ -3,76 +3,139 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: black;
+}
 button {
   margin-left: 2px;
+  border-width: 8px;
+  border-radius: 5px;
+
 }
 
 .Col1, .Col2, .Col3{
   width: 100px;
   height: 100px;
-  font-size: 85px;
+  font-size: 80px;
   margin: 4px;
   vertical-align: top;
-  border-radius: 5px;
 }
+
 .box div {
-  margin-left: 22%;
+  margin-left: 22.5%;
   display: inline-block;
   margin-right: 10%;
 }
+
 h1 {
   font-family: 'Bangers';
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
   margin-bottom: 0em;
-  line-height: 3em;
+  margin-top: 30px;
+  line-height: 2em;
 }
 
 .X {
-  color: green;
+  color: #3333ff;
 }
 .O {
-  color: red;
+  color: green;
 }
 .win {
   background-color: #ffff88;
   transition: 1s;
-  border-width: medium
+  border-width: 0px;
 }
 .box {
-  background-color: lightgray;
+  background-color: #FF9911;
   width: 600px;
   align: center;
   border-radius: 10px;
-  margin-left: 25%;
+  margin-left: 15%;
   padding-bottom: 3em;
-}
-#reset {
-  margin-left: 42.6%;
-  margin-top: 5%;
+  padding-top: 1px;
 }
 
 .winOutput {
-  margin-left: 30%;
+  margin-left: 27.5%;
   margin-top: 5%;
+  list-style: none;
 }
+
+
 li {
   line-height: 2em;
   font-family: 'Bangers';
   font-size: 20px
 }
 
-.markerChangeO, .markerChangeX {
+div.markerChangeO, div.markerChangeX {
   font-size: 20px;
   font-family: 'Bangers';
-}
-
-.markerChangeX button{
-  margin-bottom: 2em;
+  margin-left: 29%;
 }
 
 .markerChangeX button, .markerChangeO button {
   width: 3em;
   height: 2em;
   font-size: 1em;
+  background-color: green;
+  border-width: thick;
+}
+
+.markerChangeX button{
+  margin-bottom: 2em;
+  background-color: #3333ff;
+}
+
+h2 {
+  display:inline-block;
+  font-size: 40px;
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Bangers';
+  width: 2em;
+  border-radius: 30px;
+}
+
+.reset {
+  margin-left: 39%;
+  margin-top: 5%;
+  font-size: 20px;
+  background-color: #ff7711
+}
+#scores {
+  margin-left: 36%;
+  margin-top: 8%;
+}
+
+#left {
+  margin-left: 65px;
+  background-color: #3333ff;
+  margin-right: 50px;
+}
+#right {
+  margin-left: 255px;
+  background-color: green;
+}
+#draw {
+  margin-left: 3%;
+}
+
+#pvp {
+  margin-left: 30%;
+  font-family: 'Bangers';
+  margin-top: 0%;
+  margin-bottom: 20px;
+  width: 100px;
+}
+#pve {
+  margin-left: 7%;
+  font-family: 'Bangers';
+  margin-top: 0%;
+  margin-bottom: 20px;
+  width: 100px;
+
+
 }
