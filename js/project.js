@@ -1,6 +1,4 @@
 $(document).ready(function(){
-// Confetti
-//
 
 
 let markerX = 'X';
@@ -11,7 +9,7 @@ let board = [];
 let firstWins = 0;
 let secondWins = 0;
 let togglePVP = true;
-
+const audio = new Audio("Applause Light 2-SoundBible.com-356111200.mp3")
 
 const change = function() {
   if ($(this).text() === '') {
@@ -70,6 +68,7 @@ const winMessage = function(input) {
   if (turnSwap === 'X') { secondWins += 1} else { firstWins += 1};
   $('#left').text(firstWins);
   $('#right').text(secondWins);
+  audio.play()
 }
 
 
@@ -85,6 +84,7 @@ const checkWin = function() {
     diagonalWin();
   }
 }
+
 
 
 

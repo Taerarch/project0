@@ -1,7 +1,6 @@
 # Project 0 - Tic Tac Toe
 
 
-
 The core of the mechanics behind the game is a set of default buttons that upon being clicked a character dependant on the current turn is placed inside. An if statement checks if there is already a character inside the button and prevents a second input.
 
 Then we use a nested for loop to extract the text inside each button to create an array for easier access when testing for the win conditions. Next a single loop goes through each different win condition breaking them up into horizontal, vertical and diagonal win conditions.
@@ -46,3 +45,8 @@ Failing that it will look to block the human player if they have any combination
 If the human makes a move not expected and the computer is not required to block and cannot immediately win it will place a random move from top left to bottom right.
 
 There is a button to turn off the Computer opponent by making a variable false which is checked whenever a button is clicked on the grid.
+
+
+
+-----------------
+Git pages address https://taerarch.github.io/project0/index.html
