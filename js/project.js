@@ -375,9 +375,6 @@ const bot = function() {
   case board[0] === '':
     $('.Row1 .Col1').trigger('click');
     break;
-  case board[1] === '':
-    $('.Row1 .Col2').trigger('click');
-    break;
   case board[2] === '':
     $('.Row1 .Col3').trigger('click');
     break;
