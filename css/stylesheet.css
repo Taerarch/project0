@@ -3,14 +3,15 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: black;
 }
+
 button {
   margin-left: 2px;
   border-width: 8px;
   border-radius: 5px;
-
 }
 
 .Col1, .Col2, .Col3{
@@ -39,20 +40,23 @@ h1 {
 .X {
   color: #3333ff;
 }
+
 .O {
   color: green;
 }
+
 .win {
   background-color: #ffff88;
   transition: 1s;
   border-width: 0px;
 }
+
 .box {
   background-color: #FF9911;
   width: 600px;
   align: center;
   border-radius: 10px;
-  margin-left: 15%;
+  margin: auto;
   padding-bottom: 3em;
   padding-top: 1px;
 }
@@ -62,7 +66,6 @@ h1 {
   margin-top: 5%;
   list-style: none;
 }
-
 
 li {
   line-height: 2em;
@@ -105,6 +108,7 @@ h2 {
   font-size: 20px;
   background-color: #ff7711
 }
+
 #scores {
   margin-left: 36%;
   margin-top: 8%;
@@ -115,10 +119,12 @@ h2 {
   background-color: #3333ff;
   margin-right: 50px;
 }
+
 #right {
   margin-left: 255px;
   background-color: green;
 }
+
 #draw {
   margin-left: 3%;
 }
@@ -130,12 +136,11 @@ h2 {
   margin-bottom: 20px;
   width: 100px;
 }
+
 #pve {
   margin-left: 7%;
   font-family: 'Bangers';
   margin-top: 0%;
   margin-bottom: 20px;
   width: 100px;
-
-
 }
